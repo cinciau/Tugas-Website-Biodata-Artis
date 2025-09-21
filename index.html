@@ -1,0 +1,132 @@
+<!-- btw.. aku mau nanya bang buat apa sama abg file htmlnya aj? nanti gambarnya gak ada lhooo, makanya saya kirim juga versi link githubnya yaaaaa -->
+<!DOCTYPE html>
+<html lang="id">    
+    <!-- karna kita pake bahasa indo makanya kita pake lang="id" -->
+<head>
+  <meta charset="UTF-8">   
+  <!-- ini biar rapi aja hurufnya, biar gak berantakan -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!-- ini supaya bisa menyesuaikan nanti layarnya kalau kkita buka di hp -->
+  <title>Biodata 5 Artis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0; 
+      margin: 0;
+      padding: 0;
+    }
+    /* Navbar */
+    .navbar {
+      background-color: #ffb6c1; 
+      padding: 15px;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      text-align: left;
+      padding: 6px;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      width: 110px;
+      color: #333;
+    }
+  </style>
+  <!-- bagian ini ke atas bisa pindah aja sih.. ke css tp karna kita belum sampe situ ya gini aja ya bang... -->
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    Biodata 5 Artis Indonesia
+  </div>
+
+  <div class="container">
+    <!-- ARTIS 1 -->
+    <div class="card">
+      <img src="Raisa Andriana.jpeg" alt="Foto Raisa">
+      <table>
+        <tr><th>Nama</th><td>Raisa Andriana</td></tr>
+        <tr><th>TTL</th><td>Jakarta, 6 Juni 1990</td></tr>
+        <tr><th>Pekerjaan</th><td>Penyanyi</td></tr>
+        <tr><th>Hobi</th><td>Bernyanyi, traveling, fashion</td></tr>
+        <tr><th>Debut</th><td>Album perdana "Raisa" (2011)</td></tr>
+      </table>
+    </div>
+
+    <!-- ARTIS 2 -->
+    <div class="card">
+      <img src="Agnes Monica Muljoto (Jakarta, 1 Juli 1986).jpeg" alt="Foto Agnez Mo">
+      <table>
+        <tr><th>Nama</th><td>Agnes Monica Muljoto (Agnez Mo)</td></tr>
+        <tr><th>TTL</th><td>Jakarta, 1 Juli 1986</td></tr>
+        <tr><th>Pekerjaan</th><td>Penyanyi, aktris, penari</td></tr>
+        <tr><th>Hobi</th><td>Menari, fashion, olahraga</td></tr>
+        <tr><th>Debut</th><td>Album anak "Si Meong" (1992)</td></tr>
+      </table>
+    </div>
+
+    <!-- ARTIS 3 -->
+    <div class="card">
+      <img src="iqbal.jpeg" alt="Foto Iqbaal Ramadhan">
+      <table>
+        <tr><th>Nama</th><td>Iqbaal Dhiafakhri Ramadhan</td></tr>
+        <tr><th>TTL</th><td>Surabaya, 28 Desember 1999</td></tr>
+        <tr><th>Pekerjaan</th><td>Aktor, penyanyi</td></tr>
+        <tr><th>Hobi</th><td>Musik, membaca</td></tr>
+        <tr><th>Debut</th><td>Boyband Coboy Junior (2011)</td></tr>
+      </table>
+    </div>
+
+    <!-- ARTIS 4 -->
+    <div class="card">
+      <img src="Syahrini 💟❣️.jpeg" alt="Foto Syahrini">
+      <table>
+        <tr><th>Nama</th><td>Rini Fatimah Jaelani (Syahrini)</td></tr>
+        <tr><th>TTL</th><td>Bogor, 1 Agustus 1982</td></tr>
+        <tr><th>Pekerjaan</th><td>Penyanyi, aktris</td></tr>
+        <tr><th>Hobi</th><td>Traveling, fashion</td></tr>
+        <tr><th>Debut</th><td>Album "My Lovely" (2008)</td></tr>
+      </table>
+    </div>
+
+    <!-- ARTIS 5 -->
+    <div class="card">
+      <img src="Reza Rahadian.jpeg" alt="Foto Reza Rahadian">
+      <table>
+        <tr><th>Nama</th><td>Reza Rahadian Matulessy</td></tr>
+        <tr><th>TTL</th><td>Bogor, 5 Maret 1987</td></tr>
+        <tr><th>Pekerjaan</th><td>Aktor</td></tr>
+        <tr><th>Hobi</th><td>Membaca, traveling</td></tr>
+        <tr><th>Debut</th><td>Film "Petualangan Sherina" (2000, figuran)</td></tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
